@@ -1,0 +1,71 @@
+.navbar {
+  background-color: rgba(25, 25, 25, 0.8);
+  backdrop-filter: blur(10px);
+  color: var(--on-surface);
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(149, 142, 160, 0.2);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.navbar-logo .logo {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.navbar-menu li {
+  margin: 0;
+}
+
+.navbar-menu a {
+  color: var(--on-surface);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+  opacity: 0.8;
+}
+
+.navbar-menu a:hover {
+  color: var(--primary-color);
+  opacity: 1;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.cta-button {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.3);
+}

@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #8b5cf6; /* Purple */
+  --secondary-color: #3b82f6; /* Blue */
+  --tertiary-color: #ec4899; /* Pink */
+  --background-color: #191919; /* Dark background */
+  --surface-color: #131313; /* Surface */
+  --surface-container: #201f1f; /* Surface container */
+  --on-surface: #e5e2e1; /* Text on surface */
+  --outline: #958ea0; /* Outline */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+  color: var(--on-surface);
+  line-height: 1.6;
+}
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color), var(--tertiary-color));
+  background-attachment: fixed;
+}
