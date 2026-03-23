@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src="/flux-logo.img" alt="Flux Creative Technologies Logo" className="logo" />
+          <img src="/flux_nav_logo-DeCe_Nal (1).svg" alt="Flux Logo" className="logo" />
         </div>
         <ul className="navbar-menu">
           <li><a href="#solutions">Solutions</a></li>
