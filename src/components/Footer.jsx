@@ -10,9 +10,9 @@ const Footer = () => {
             <img src="/flux-logo.svg" alt="Flux Creative Technologies" className="footer-logo" />
             <p>Innovating the future through creative technology solutions that transform businesses and inspire innovation.</p>
             <div className="social-links">
-              <a href="#" className="social-link">LinkedIn</a>
-              <a href="#" className="social-link">Twitter</a>
-              <a href="#" className="social-link">GitHub</a>
+              <a href="https://www.linkedin.com/in/nweze-augustine-22a78335a?utm_source=share&utm_campaign=share_via&utm_conte9nt=profile&utm_medium=android_app" className="social-link">LinkedIn</a>
+              <a href="https://x.com/_austineyoung" className="social-link">Twitter</a>
+              <a href="https://github.com/austine-young-coder" className="social-link">GitHub</a>
             </div>
           </div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
                 <li><a href="#node">Node.js</a></li>
                 <li><a href="#cloud">Cloud Services</a></li>
                 <li><a href="#ai">AI Integration</a></li>
-              </ul>
+              </ul>6
             </div>
 
             <div className="footer-column">
@@ -52,7 +52,7 @@ const Footer = () => {
               <ul>
                 <li><a href="mailto:hello@fluxcreativetech.com">hello@fluxcreativetech.com</a></li>
                 <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
-                <li>San Francisco, CA</li>
+                <li>Lagos, NG</li>
               </ul>
             </div>
           </div>
